@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tomorrow', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999999999999999999999999999999999999999999999999999;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu a{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(248, 213, 148);
+    font-size: 39px;
+    font-family: 'Tomorrow', sans-serif;
+}
+#one{
+
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.fullscreen-bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    overflow: hidden;
+}
+.fullscreen-bg video{
+    width: 100%;
+    height: auto;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background: url('/Project/Hardware-background.jpg');
+    color: white;
+    background-size: cover;
+    position: relative;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 10;
+}
+.logo{
+    width: 16.6%;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.facebook{
+    height: 250px;
+    background-image: url('/Project/f_logo_RGB-Hex-Blue_512.png');
+}
+.asimov{
+    background-image: url("/Project/-ZsPSdAI_400x400.png");
+}
+.neuralink{
+    background-image: url("/Project/neuralink-square-logo.png");
+}
+.microsoft{
+    background-image: url('/Project/ICON MICROSOFT.png');
+}
+.google{
+    background-image: url('/Project/Без имени-1.png');
+}
+.apple{
+    background-image: url('/Project/Без\ названия.png');
+    background-position: center;
+}
+.facebook:hover{
+    background-image: url("/Project/1458751877_mark.jpg");
+    transition: 1s;
+}
+.asimov:hover{
+    background-image: url("/Project/AlecNielsen.jpg");
+    transition: 1s;
+}
+.neuralink:hover{
+    background-image: url("/Project/a0b656599fde72d6d31da7415a8cbad4.jpg");
+    transition: 1s;
+}
+.microsoft:hover{
+    background-image: url('/Project/picture2_rejting-samyh-bog_360662_p0.jpg');
+    background-size: 100% 100%;
+    transition: 1s;
+}
+.google:hover{
+    background-image: url('/Project/Larry-Page-Google.jpg');
+    transition: 1s;
+}
+.apple:hover{
+    background-image: url('/Project/steve-jobs-original-iphone-launch.jpg');
+    background-size: 100% 100%;
+    transition: 1s;
+}
+.inf{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 12;
+}
+.inf p{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 50px;
+}
+.support{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    z-index: 12;
+}
+.footer span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 65px;
+}
+.footer p{
+    margin: 0;
+}
+.black{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content{
+    z-index: 999999;
+    color: rgb(248, 213, 148);
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.info{
+    width: 50%;
+}
+.kartinka img{
+    height: 800px;
+    width: 900px;
+    scroll-margin-left: 0;
+}
+.info p img{
+    height: 600px;
+    width: 1000px;
+}
+
+
